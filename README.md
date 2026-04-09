@@ -31,7 +31,7 @@ EduBook bridges the communication gap in educational institutions by providing a
 
 **💻 Frontend:**
 * HTML5
-* CSS3 (Custom responsive layouts, Flexbox, CSS Grid)
+* CSS3 (Custom responsive layouts, Flexbox)
 * Vanilla JavaScript (DOM manipulation, Event Listeners, Smart Routing)
 
 **☁️ Backend / Database (Firebase):**
@@ -40,37 +40,32 @@ EduBook bridges the communication gap in educational institutions by providing a
 
 ## 📂 Project Structure
 
-\`\`\`text
+<pre>
 edubook/
-│
 ├── css/
 │   ├── home.css
 │   ├── login.css
 │   ├── register.css
 │   └── dashboard.css
-│
 ├── js/
-│   └── script.js          # Contains Firebase config, Auth logic, and Dashboard functions
-│
-├── index.html             # Landing Page
-├── login.html             # Login Portal
-├── register.html          # Registration Portal
-├── admin-dashboard.html   # Admin Control Panel
-├── teacher-dashboard.html # Teacher Schedule Manager
-└── dashboard.html         # Student Booking Portal
-\`\`\`
+│   └── script.js          
+├── index.html             
+├── login.html             
+├── register.html          
+├── admin-dashboard.html   
+├── teacher-dashboard.html 
+└── dashboard.html         
+</pre>       
 
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone the Repository
-\`\`\`bash
 git clone https://github.com/Sahilpatil366/student-teacher-app.git
-\`\`\`
+
 
 ### 2️⃣ Navigate to the Project Folder
-\`\`\`bash
 cd student-teacher-app
-\`\`\`
+
 
 ### 3️⃣ Firebase Setup (Crucial)
 1. Go to the [Firebase Console](https://console.firebase.google.com/).
@@ -94,10 +89,21 @@ Simply open `index.html` in your web browser or use a local server like VS Code'
 
 Contributions are welcome! If you'd like to improve this project:
 1. Fork the repository
-2. Create a new branch (`git checkout -b feature/AmazingFeature`)
+2. Create a new branch: `feature/AmazingFeature`
 3. Make your changes
-4. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-5. Push to the branch (`git push origin feature/AmazingFeature`)
+4. Commit your changes: `git commit -m 'Add some AmazingFeature'`
+5. Push to the branch: `git push origin feature/AmazingFeature`
 6. Submit a Pull Request
 
-##
+## 👨‍💻 Author
+
+**Sahil Patil**
+* GitHub: [https://github.com/Sahilpatil366](https://github.com/Sahilpatil366)
+
+## ⭐ Show Your Support
+
+If you like this project or found it helpful, please give the repository a ⭐ and share it!
+
+## 📜 License
+
+This project is licensed under the MIT License.
